@@ -19,8 +19,8 @@ const Intro = () => {
                 <motion.img
                     initial={{ opacity: 0, y: 100 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className='h-40 aspect-square  rounded-full shadow-2xl bg-gray-300 animate-pulsing  p-2'
-                    src='./logo.png' />
+                    className='h-40 aspect-square object-fill object-center  rounded-full shadow-2xl bg-gray-300 animate-pulsing  p-2'
+                    src='./logo.jpg' />
                 <label className="swap swap-rotate top-2 absolute -right-7 z-10">
                     {/* this hidden checkbox controls the state */}
                     <input type="checkbox" className="theme-controller" value="sunset" />
